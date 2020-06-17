@@ -1,0 +1,28 @@
+{
+  // id: gpfbkgfpheenckkcjnlcgpkidoommkkg
+  "name": "rofi-chrome",
+  "version": "1.0",
+  "description": "rofi with chrome",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab", "nativeMessaging", "tabs", "history", "bookmarks", "storage", "sessions", "downloads", "topSites", "downloads.shelf", "clipboardRead", "clipboardWrite", "webNavigation"
+  ],
+  "background": {
+    "persistant": false,
+    "scripts": [ "bg.js" ]
+  },
+  "commands": {
+    "switchTab": {
+      "description": "switch to another tab"
+    },
+    "openHistory": {
+      "description": "open tab from history"
+    },
+    "pageFunc": {
+      "description": "page-dependent search"
+    },
+    "goLastTab": {
+      "description": "go to last tab"
+    }
+  }
+}
