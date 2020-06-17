@@ -12,15 +12,13 @@ rofi-chrome is a browser extension for better tab navigation without injecting j
 
 ![](res/history.gif)
 
-
-### Go to last tab
-
-![](res/last-tab.gif)
-
 ### Search history from same domain
 
 ![](res/same-page.gif)
 
+### Go to last tab
+
+![](res/last-tab.gif)
 
 
 ## Installation
