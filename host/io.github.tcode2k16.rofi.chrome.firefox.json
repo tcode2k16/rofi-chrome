@@ -1,0 +1,7 @@
+{
+  "name": "io.github.tcode2k16.rofi.chrome",
+  "description": "rofi chrome",
+  "path": "HOST_PATH",
+  "type": "stdio",
+  "allowed_extensions": [ "rofi_chrome@tcode2k16.github.io" ]
+}

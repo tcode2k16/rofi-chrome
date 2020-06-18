@@ -48,6 +48,12 @@ main() {
       fi
     fi
 
+    if command -v "firefox" >/dev/null 2>&1; then
+      on_key 'Install for firefox? (y/n)'
+      if test "$key" = 'y'; then
+        browser_install "$HOME/.mozilla/native-messaging-hosts" "firefox"
+      fi
+    fi
     ;;
   *)
     printf "${red}Error${none} %s is not currently supported" "$OS"
@@ -62,7 +68,7 @@ browser_install() {
 
   mkdir -p "$TARGET_DIR"
 
-  cp "$SOURCE_DIR/$NAME.json" "$TARGET_DIR/$NAME.json"
+  cp "$SOURCE_DIR/$NAME.$browser_name.json" "$TARGET_DIR/$NAME.json"
 
   HOST_PATH="$SOURCE_DIR/main.py"
   ESCAPED_HOST_PATH=${HOST_PATH////\\/}

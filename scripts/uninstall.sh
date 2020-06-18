@@ -37,6 +37,12 @@ main() {
       fi
     fi
 
+    if command -v "firefox" >/dev/null 2>&1; then
+      on_key 'Uninstall for firefox? (y/n)'
+      if test "$key" = 'y'; then
+        browser_uninstall "$HOME/.mozilla/native-messaging-hosts" "firefox"
+      fi
+    fi
     ;;
   *)
     printf "${red}Error${none} %s is not currently supported" "$OS"

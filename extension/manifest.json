@@ -11,6 +11,11 @@
     "persistant": false,
     "scripts": [ "bg.js" ]
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rofi_chrome@tcode2k16.github.io"
+    }
+  },
   "commands": {
     "switchTab": {
       "description": "switch to another tab"

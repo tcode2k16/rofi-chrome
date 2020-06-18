@@ -45,7 +45,12 @@ For example, if you are using chrome or chromium:
 * Go to `chrome://extensions/` in the browser and check the box for Developer mode in the top right.
 * Click the Load unpacked extension button and select the `rofi-chrome/extension` folder to install it.
 
-Configure the shortcuts for the various commands (`chrome://extensions/shortcuts` for chrome and chromium)
+And if you are using firefox:
+
+* Go to `about:debugging#/runtime/this-firefox` in the browser
+* Click the Load Temporary Add-on button and select the `rofi-chrome/extension` folder to install it.
+
+Configure the shortcuts for the various commands (`chrome://extensions/shortcuts` for chrome and chromium / `Manage Extension Shortcuts` in `about:addons` for firefox)
 
 For your reference, I use:
 
@@ -65,6 +70,7 @@ Now, you have the extension working. Yay!
 
 - google chrome
 - chromium
+- firefox
 - (more in the future)
 
 ## TODO
