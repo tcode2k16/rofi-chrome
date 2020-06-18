@@ -1,6 +1,7 @@
 {
-  // id: gpfbkgfpheenckkcjnlcgpkidoommkkg
+  // id: aocepclkpgckjeikiphffdlileoaceec
   "name": "rofi-chrome",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuHwUuBKUt9Ac7Sge8cHpFEkiX3wn/yTiVY9lPzRuK6D/9BwqMSydTXsaHTHjl/3FV7m1fmL338itD2ilR3e5m/8XnYowL6QoBVJAeHIWylmEE3/XKVjn1ETd0QnXj/3euG2Z+oWsVcWhhxfflOPErm+tO+LrFINwkRWire8Wdz4sCugYlPUL95dCRlRYwAcyc4i+9y1AB7meCDHDYeMc1arm9Aad0ePqGCulJlFH2ocq5LRkrXacmrGVohAhslKo3TBtvXaWZRlHDce6VhWL2C/G81EHNDOLlNnhPTQPjf1p5pBVxl10RVAJWvOCxKY74mLIM5ZG5Qb4b0C9lpVzyQIDAQAB",
   "version": "1.0",
   "description": "rofi with chrome",
   "manifest_version": 2,

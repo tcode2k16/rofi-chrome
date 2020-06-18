@@ -1,3 +1,5 @@
 host/.log
 host/log-file
 *.mp4
+*.pem
+*.crx
