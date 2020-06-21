@@ -35,7 +35,7 @@ Install native extension using the provided script:
 
 ```
 cd rofi-chrome
-./script/install.sh
+./scripts/install.sh
 ```
 
 Load the unpacked extension located at `rofi-chrome/extension` to the browser of your liking.
